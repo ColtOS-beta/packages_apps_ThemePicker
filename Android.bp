@@ -85,7 +85,6 @@ java_defaults {
         "SystemUICustomizationLib",
         "kotlinx_coroutines_android",
         "kotlinx_coroutines",
-        "vendor_support",
     ],
 
     jni_libs: [
@@ -127,9 +126,8 @@ android_app {
         "WallpaperPicker",
         "WallpaperPicker2",
     ],
+    
     required: [
-        "privapp_whitelist_com.android.wallpaper"
-        "default_permissions_com.android.wallpaper",
         "privapp_whitelist_com.android.wallpaper",
         "PixelThemesStub",
     ],
